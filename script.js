@@ -63,9 +63,6 @@ document.getElementById('btnEqual').addEventListener('click', function () {
 
 document.getElementById('btnRetry').addEventListener('click', function () {
 
-    const orderNumberField = document.getElementById('orderNumberField');
-    const answerField = document.getElementById('answerField');
-
     let minValue = parseInt(prompt('Минимальное знание числа для игры','0'));
     let maxValue = parseInt(prompt('Максимальное знание числа для игры','100'));
     alert(`Давай попробуем еще раз, загадай любое целое число от ${minValue} до ${maxValue}, а я его угадаю`);
